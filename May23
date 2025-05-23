@@ -176,5 +176,23 @@ public class Group_Anagrams {
     }
 }
 
+2. Subarray Sum Equals K
+Given an array of integers and a target sum k, return the total number of continuous subarrays whose sum equals to k.
+
+import java.util.*;
+public class Subarray_sum {
+    public static void main(String[] args){
+
+        //2. Subarray Sum Equals K
+        //Given an array of integers and a target sum k,
+        // return the total number of continuous subarrays whose sum equals to k.
+        Scanner sc = new Scanner(System.in);
+
+        //Approaches
+        //Brute force -> make all combo check sum and if match count++
+        //optimized prefix sum -> take contiues sum , make combo and inc count if match
+        //more optimized for O(n) : logic not coming
+
+
 
 
